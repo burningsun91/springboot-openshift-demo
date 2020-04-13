@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class TestController {
 	
-	@GetMapping("/openshift/demo")
+	@GetMapping("/")
 	public String helloOpenShift() {
 		return "Welcome to Openshift";
 	}
